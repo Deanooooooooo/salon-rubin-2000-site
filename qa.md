@@ -33,16 +33,16 @@ Status: PASS locally. Sheet was not updated per instruction.
 - Schema: HairSalon with NAP, address, hours, sameAs, hasMap, canonical URL.
 - Hrefs checked locally: phone, anchors, Facebook, Google Maps, canonical, stylesheet.
 
-## Gate 6 — image/layout audit: PASS
+## Gate 6 — image/layout audit: PASS after correction
 - Image paths load locally after scroll/lazy-load check.
 - Hero and gallery use portrait/square frames appropriate to source orientation; no forced landscape crop of vertical hair result.
-- No duplicate subject hidden as variety beyond deliberate result-gallery rhythm; no made-up captions.
+- 2026-05-30 correction: exact visible image reuse was found (`rubin-fb-3.jpg` hero+gallery and `rubin-fb-8.jpg` services+gallery). This was a QA miss. The page now uses unique visible image files across hero, services, gallery, and contact.
 - `rubin-google-2` was re-saved/renamed to `rubin-google-2-fixed.jpg` after Chrome decode issue.
 
-## Gate 7 — map/local SEO audit: PASS
+## Gate 7 — map/local SEO audit: PASS after correction
 - Bottom Google Maps/local SEO block is directly above footer.
 - Map/contact block has exactly one visible navigation CTA.
-- Google Maps iframe loads visibly with query embed; verified screenshot `artifacts/map-mobile.png`.
+- 2026-05-30 correction: old long text-query iframe rendered blank in live screenshot QA. Replaced with coordinate-based embed `42.661,23.4015&z=16&output=embed`, then re-tested visible map screenshots.
 
 ## Gate 8 — responsive visual QA: PASS
 - Local screenshots generated:

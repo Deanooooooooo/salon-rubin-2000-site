@@ -34,8 +34,9 @@ Business facts verified:
 
 ## Placement plan
 - Hero: `rubin-fb-3.jpg` plus `rubin-google-5.jpg` as small location trust tile.
-- Near-top result gallery: `rubin-fb-3.jpg`, `rubin-fb-4.jpg`, `rubin-fb-6.jpg`, `rubin-google-6.jpg`, `rubin-fb-9.jpg`, `rubin-fb-8.jpg`.
 - Services support: `rubin-fb-2.jpg`, `rubin-fb-5.jpg`.
+- Near-top result gallery: `rubin-fb-4.jpg`, `rubin-fb-6.jpg`, `rubin-google-6.jpg`, `rubin-fb-9.jpg`, `rubin-fb-8.jpg`, `rubin-fb-7.jpg`.
 - Contact/location: `rubin-google-2-fixed.jpg` and Google Maps iframe.
+- 2026-05-30 correction: no visible image file is reused across hero, services, gallery, and contact. Previous duplicate use of `rubin-fb-3.jpg` and `rubin-fb-8.jpg` was a QA failure and has been removed.
 
 No usable standalone logo found. Facebook collage contains branding text but is not clean enough for header/logo use.
